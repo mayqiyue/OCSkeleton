@@ -1,0 +1,6 @@
+framework module OCSkeleton {
+  umbrella header "OCSkeleton-umbrella.h"
+
+  export *
+  module * { export * }
+}

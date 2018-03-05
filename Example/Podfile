@@ -1,0 +1,11 @@
+#use_frameworks!
+
+target 'OCSkeleton_Example' do
+  pod 'OCSkeleton', :path => '../'
+
+  target 'OCSkeleton_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

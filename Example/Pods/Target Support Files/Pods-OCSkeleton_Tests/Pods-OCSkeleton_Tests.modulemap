@@ -1,0 +1,6 @@
+framework module Pods_OCSkeleton_Tests {
+  umbrella header "Pods-OCSkeleton_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
