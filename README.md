@@ -1,8 +1,8 @@
-### The library is the Objc Version of [Skeleton](https://github.com/gonzalonunez/Skeleton)
+###The library is the Objc Version of [Skeleton](https://github.com/gonzalonunez/Skeleton)
 
 
 
-![](./logo@2x.png)
+![](./logo.png)
 
 
 [![CI Status](http://img.shields.io/travis/mayqiyue/OCSkeleton.svg?style=flat)](https://travis-ci.org/mayqiyue/OCSkeleton)
