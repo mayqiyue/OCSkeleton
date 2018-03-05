@@ -10,6 +10,12 @@
 #import "OCSkeletonCell.h"
 #import <OCSkeleton.h>
 
+UIColor *brightened(UIColor *raw, CGFloat factor) {
+    CGFloat h,s,b,a;
+    [raw getHue:&h saturation:&s brightness:&b alpha:&a];
+    return [UIColor colorWithHue:h saturation:s brightness:b*factor alpha:a];
+}
+
 @interface OCViewController ()
 
 @end
@@ -38,7 +44,7 @@
     OCSkeletonCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cellid" forIndexPath:indexPath];
     for (CAGradientLayer *layer in cell.gradientLayers) {
         UIColor *baseColor = cell.titlePlaceholderView.backgroundColor;
-        layer.colors = @[(id)baseColor.CGColor, (id)[UIColor blueColor].CGColor,(id) baseColor.CGColor];
+        layer.colors = @[(id)baseColor.CGColor, (id)brightened(baseColor, 0.93).CGColor,(id) baseColor.CGColor];
     }
     return cell;
 }
@@ -55,4 +61,6 @@
     return 70.0f;
 }
 
+
 @end
+
