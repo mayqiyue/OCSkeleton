@@ -7,6 +7,8 @@
 //
 
 #import "OCViewController.h"
+#import "OCSkeletonCell.h"
+#import <OCSkeleton.h>
 
 @interface OCViewController ()
 
@@ -17,13 +19,40 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.title = @"Contacts";
+    self.tableView.scrollEnabled = false;
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    
+    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass(OCSkeletonCell.class) bundle:nil] forCellReuseIdentifier:@"cellid"];
 }
 
-- (void)didReceiveMemoryWarning
+#pragma mark- UITableViewDataSource
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    return self.view.frame.size.height/70;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    OCSkeletonCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cellid" forIndexPath:indexPath];
+    for (CAGradientLayer *layer in cell.gradientLayers) {
+        UIColor *baseColor = cell.titlePlaceholderView.backgroundColor;
+        layer.colors = @[(id)baseColor.CGColor, (id)[UIColor blueColor].CGColor,(id) baseColor.CGColor];
+    }
+    return cell;
+}
+
+#pragma mark- UITableViewDelegate
+
+- (void)tableView:(UITableView *)tableView willDisplayCell:(OCSkeletonCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [cell slideToDir:OCDirectionRight animations:nil];
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 70.0f;
 }
 
 @end

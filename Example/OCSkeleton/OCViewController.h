@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface OCViewController : UIViewController
+@interface OCViewController : UITableViewController
 
 @end
