@@ -1,14 +1,14 @@
-###The library is the Objc Version of [Skeleton](https://github.com/gonzalonunez/Skeleton)
+### The library is the Objc Version of [Skeleton](https://github.com/gonzalonunez/Skeleton)
 
 
+<center>![](./logo.png)</center>
 
-![](./logo.png)
-
-
+<center>
 [![CI Status](http://img.shields.io/travis/mayqiyue/OCSkeleton.svg?style=flat)](https://travis-ci.org/mayqiyue/OCSkeleton)
 [![Version](https://img.shields.io/cocoapods/v/OCSkeleton.svg?style=flat)](http://cocoapods.org/pods/OCSkeleton)
 [![License](https://img.shields.io/cocoapods/l/OCSkeleton.svg?style=flat)](http://cocoapods.org/pods/OCSkeleton)
-[![Platform](https://img.shields.io/cocoapods/p/OCSkeleton.svg?style=flat)](http://cocoapods.org/pods/OCSkeleton)    
+[![Platform](https://img.shields.io/cocoapods/p/OCSkeleton.svg?style=flat)](http://cocoapods.org/pods/OCSkeleton)  
+</center>  
 
 OCSkeleton is an easy way to create sliding CAGradientLayer animations! It works great for creating skeleton screens:
 
