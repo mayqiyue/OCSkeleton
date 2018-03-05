@@ -5,7 +5,5 @@ target 'OCSkeleton_Example' do
 
   target 'OCSkeleton_Tests' do
     inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
   end
 end

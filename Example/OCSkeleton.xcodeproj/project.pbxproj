@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18AA715FE3CD0C659CCED41D /* libPods-OCSkeleton_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 627D8F6BA82F634F6A98E1EC /* libPods-OCSkeleton_Tests.a */; };
+		51812359CAF9806F0443A87E /* libPods-OCSkeleton_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E86F9F78EDF8FB9C08D89903 /* libPods-OCSkeleton_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -20,9 +22,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		6222996793A718C031C30ED0 /* Pods_OCSkeleton_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2739F549201177DB777E8B /* Pods_OCSkeleton_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		79062D8ABB466F4562E4CBB5 /* Pods_OCSkeleton_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBF168F7EF41EE98E549794 /* Pods_OCSkeleton_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3FF5059E5E96CF3AEC7799FF /* OCSkeleton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = OCSkeleton.podspec; path = ../OCSkeleton.podspec; sourceTree = "<group>"; };
+		3FF5059E5E96CF3AEC7799FF /* OCSkeleton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OCSkeleton.podspec; path = ../OCSkeleton.podspec; sourceTree = "<group>"; };
 		47FE13FB3DCC2F58D0CB77DB /* Pods-OCSkeleton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCSkeleton_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCSkeleton_Tests/Pods-OCSkeleton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* OCSkeleton_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCSkeleton_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,15 +58,15 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6CBF168F7EF41EE98E549794 /* Pods_OCSkeleton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCSkeleton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		627D8F6BA82F634F6A98E1EC /* libPods-OCSkeleton_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCSkeleton_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		796FA2D783F2C38848C2A455 /* Pods-OCSkeleton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCSkeleton_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCSkeleton_Example/Pods-OCSkeleton_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7E05D8C84EBD541199362EC4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7E05D8C84EBD541199362EC4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E7FEB724139327F5968363F /* Pods-OCSkeleton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCSkeleton_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCSkeleton_Example/Pods-OCSkeleton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C964493E48D0DB0B1DCE65D8 /* Pods-OCSkeleton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCSkeleton_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCSkeleton_Tests/Pods-OCSkeleton_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DE2739F549201177DB777E8B /* Pods_OCSkeleton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCSkeleton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDE46D513D49729FB250C584 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E86F9F78EDF8FB9C08D89903 /* libPods-OCSkeleton_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCSkeleton_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE46D513D49729FB250C584 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				6222996793A718C031C30ED0 /* Pods_OCSkeleton_Example.framework in Frameworks */,
+				51812359CAF9806F0443A87E /* libPods-OCSkeleton_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				79062D8ABB466F4562E4CBB5 /* Pods_OCSkeleton_Tests.framework in Frameworks */,
+				18AA715FE3CD0C659CCED41D /* libPods-OCSkeleton_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				DE2739F549201177DB777E8B /* Pods_OCSkeleton_Example.framework */,
-				6CBF168F7EF41EE98E549794 /* Pods_OCSkeleton_Tests.framework */,
+				E86F9F78EDF8FB9C08D89903 /* libPods-OCSkeleton_Example.a */,
+				627D8F6BA82F634F6A98E1EC /* libPods-OCSkeleton_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -539,6 +539,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OCSkeleton/OCSkeleton-Prefix.pch";
 				INFOPLIST_FILE = "OCSkeleton/OCSkeleton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -554,6 +555,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OCSkeleton/OCSkeleton-Prefix.pch";
 				INFOPLIST_FILE = "OCSkeleton/OCSkeleton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
