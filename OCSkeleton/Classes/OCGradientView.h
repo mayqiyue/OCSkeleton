@@ -6,7 +6,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "OCGradientLayer.h"
 
 @interface OCGradientView : UIView
+
+@property (nonatomic, strong, readonly) OCGradientLayer *gradientLayer;
 
 @end

@@ -364,7 +364,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		06285DC3383DBD0E76523FE4B7AFE8ED /* Release */ = {
+		0144E98A807B081E7D35B784FA327E60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F866E19F80A5CB3FC94FEFD055C2C168 /* OCSkeleton.xcconfig */;
 			buildSettings = {
@@ -373,7 +373,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/OCSkeleton/OCSkeleton-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -382,9 +382,8 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		0D6A69A3EC85E326255E115F0C75AAC5 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -526,7 +525,7 @@
 			};
 			name = Debug;
 		};
-		913DB48A3F63CB80EC25E2274108636B /* Debug */ = {
+		E0912B45D3297AD32BF81988851B6AFE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F866E19F80A5CB3FC94FEFD055C2C168 /* OCSkeleton.xcconfig */;
 			buildSettings = {
@@ -535,7 +534,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/OCSkeleton/OCSkeleton-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -544,8 +543,9 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -625,8 +625,8 @@
 		3CC679FE70142FDB965C03E97FE8684C /* Build configuration list for PBXNativeTarget "OCSkeleton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				913DB48A3F63CB80EC25E2274108636B /* Debug */,
-				06285DC3383DBD0E76523FE4B7AFE8ED /* Release */,
+				0144E98A807B081E7D35B784FA327E60 /* Debug */,
+				E0912B45D3297AD32BF81988851B6AFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -6,7 +6,6 @@
 //
 
 #import "OCGradientView.h"
-#import "OCGradientLayer.h"
 
 @implementation OCGradientView
 

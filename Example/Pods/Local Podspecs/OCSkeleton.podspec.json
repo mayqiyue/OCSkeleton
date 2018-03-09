@@ -1,7 +1,7 @@
 {
   "name": "OCSkeleton",
   "version": "0.1.0",
-  "summary": "A short description of OCSkeleton.",
+  "summary": "[ObjC version] - 💀 An easy way to create sliding CAGradientLayer animations! Works great for creating skeleton screens for loading content.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/mayqiyue/OCSkeleton",
   "license": {
@@ -9,14 +9,14 @@
     "file": "LICENSE"
   },
   "authors": {
-    "mayqiyue": "mayqiyue@qq.com"
+    "mayqiyue": "xu20121013@gmail.com"
   },
   "source": {
     "git": "https://github.com/mayqiyue/OCSkeleton.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "OCSkeleton/Classes/**/*"
 }
