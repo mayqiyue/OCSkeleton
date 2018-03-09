@@ -1,5 +1,5 @@
 PODS:
-  - OCSkeleton (0.1.0)
+  - OCSkeleton (0.4.0)
 
 DEPENDENCIES:
   - OCSkeleton (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  OCSkeleton: 92bcdb653a999cd199dd912272368374c63b29fa
+  OCSkeleton: 0b21e01ddd514545cda09c64159f95dee5dfa27f
 
 PODFILE CHECKSUM: 2b940d2f9c2a77584f9ea6aab893f1e4ac3b60eb
 

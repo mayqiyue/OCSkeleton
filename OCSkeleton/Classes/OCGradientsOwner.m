@@ -18,6 +18,7 @@
     NSArray *layers = [self performSelector:@selector(gradientLayers)];
     for (OCGradientLayer *layer in layers) {
         [layer slideToDir:direction animations:group];
+        layer.hidden = false;
     }
 }
 
@@ -30,6 +31,7 @@
     NSArray *layers = [self performSelector:@selector(gradientLayers)];
     for (OCGradientLayer *layer in layers) {
         [layer stopSliding];
+        layer.hidden = true;
     }
 }
 
