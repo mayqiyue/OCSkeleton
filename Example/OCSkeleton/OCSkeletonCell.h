@@ -15,4 +15,7 @@
 @property (weak, nonatomic) IBOutlet OCGradientContainerView *titlePlaceholderView;
 @property (weak, nonatomic) IBOutlet OCGradientContainerView *subtitlePlaceholderView;
 
+@property (strong, nonatomic) UILabel *titleLabel;
+@property (strong, nonatomic) UILabel *subTitleLabel;
+
 @end

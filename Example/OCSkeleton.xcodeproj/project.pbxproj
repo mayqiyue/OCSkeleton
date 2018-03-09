@@ -26,6 +26,7 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		F1A3DC2D204D506800B061F9 /* OCSkeletonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F1A3DC2B204D506800B061F9 /* OCSkeletonCell.m */; };
 		F1A3DC2E204D506800B061F9 /* OCSkeletonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1A3DC2C204D506800B061F9 /* OCSkeletonCell.xib */; };
+		F1CC054620523D4200615175 /* avatar.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F1CC054520523D4200615175 /* avatar.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		F1A3DC2A204D506800B061F9 /* OCSkeletonCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCSkeletonCell.h; sourceTree = "<group>"; };
 		F1A3DC2B204D506800B061F9 /* OCSkeletonCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCSkeletonCell.m; sourceTree = "<group>"; };
 		F1A3DC2C204D506800B061F9 /* OCSkeletonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OCSkeletonCell.xib; sourceTree = "<group>"; };
+		F1CC054520523D4200615175 /* avatar.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar.jpeg; sourceTree = "<group>"; };
 		FDE46D513D49729FB250C584 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +139,7 @@
 		6003F593195388D20070C39A /* Example for OCSkeleton */ = {
 			isa = PBXGroup;
 			children = (
+				F1CC054520523D4200615175 /* avatar.jpeg */,
 				6003F59C195388D20070C39A /* OCAppDelegate.h */,
 				6003F59D195388D20070C39A /* OCAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -258,6 +261,9 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = mayqiyue;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = A4ZY6X2WCR;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -289,6 +295,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				F1CC054620523D4200615175 /* avatar.jpeg in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 				F1A3DC2E204D506800B061F9 /* OCSkeletonCell.xib in Resources */,
@@ -568,6 +575,7 @@
 			baseConfigurationReference = 9E7FEB724139327F5968363F /* Pods-OCSkeleton_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A4ZY6X2WCR;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OCSkeleton/OCSkeleton-Prefix.pch";
 				INFOPLIST_FILE = "OCSkeleton/OCSkeleton-Info.plist";
@@ -584,6 +592,7 @@
 			baseConfigurationReference = 796FA2D783F2C38848C2A455 /* Pods-OCSkeleton_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A4ZY6X2WCR;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OCSkeleton/OCSkeleton-Prefix.pch";
 				INFOPLIST_FILE = "OCSkeleton/OCSkeleton-Info.plist";
