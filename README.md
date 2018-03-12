@@ -23,7 +23,9 @@ OCSkeleton is an easy way to create sliding CAGradientLayer animations! It works
 
 ## 👩‍💻 Usage
 
-The entire library comes down to just one public-facing extension:
+### import the OCSkeleton:  \#import \<OCSkeleton.h\>
+
+#### You can use the *OCGradientLayer* directly:
 
 ```ObjC
 @interface OCGradientLayer : CAGradientLayer
@@ -36,7 +38,24 @@ The entire library comes down to just one public-facing extension:
 
 ```
 
-You can check out the example for more.
+#### Or you can use the *OCGradientContainerView* to intergate with autolayout:
+
+1. Make your view confrom to *OCGradientsOwner* protocol
+2. Use the API    
+
+```ObjC
+@interface UIView (OCGradientsOwner)
+
+- (void)slideToDir:(OCDirection)direction animations:(void (^)(CAAnimationGroup *))group;
+
+- (void)stopSliding;
+
+@end
+
+
+```
+
+Check out the example for more.
 
 
 ## 📚 Example
