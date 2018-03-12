@@ -17,8 +17,6 @@
     </a>
 </p>
 
-OCSkeleton is an easy way to create sliding CAGradientLayer animations! It works great for creating skeleton screens:
-
 ![](./skeleton-logo-animation.gif)
 
 ## 👩‍💻 Usage
