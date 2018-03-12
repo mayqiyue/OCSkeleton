@@ -1,4 +1,4 @@
-### The library is the ObjC Version of [Skeleton](https://github.com/gonzalonunez/Skeleton)
+### The library is inspired by [Skeleton](https://github.com/gonzalonunez/Skeleton)
 
 
 <p align="center">
