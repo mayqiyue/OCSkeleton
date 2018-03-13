@@ -10,7 +10,11 @@
 
 @protocol OCGradientsOwner<NSObject>
 
+@required
 - (NSArray <OCGradientLayer *>*)gradientLayers;
+
+@optional
+- (NSArray <UIView *>*)skeletonViews;
 
 @end
 

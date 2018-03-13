@@ -12,21 +12,28 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    [self.titlePlaceholderView addSubview:self.titleLabel];
-    [self.subtitlePlaceholderView addSubview:self.subTitleLabel];
+    [self.contentView addSubview:self.titleLabel];
+    [self.contentView addSubview:self.subTitleLabel];
 }
 
 - (void)layoutSubviews {
     [super layoutSubviews];
     self.imagePlaceholderView.layer.cornerRadius = self.imagePlaceholderView.bounds.size.width/2.0f;
     self.imagePlaceholderView.clipsToBounds = true;
-    self.titleLabel.frame = self.titleLabel.superview.bounds;
-    self.subTitleLabel.frame = self.subTitleLabel.superview.bounds;
+    self.titleLabel.frame = self.titlePlaceholderView.frame;
+    self.subTitleLabel.frame = self.subtitlePlaceholderView.frame;
 }
 
 - (NSArray <OCGradientLayer *>*)gradientLayers {
     if (self.titlePlaceholderView && self.subtitlePlaceholderView) {
         return @[self.titlePlaceholderView.gradientLayer, self.subtitlePlaceholderView.gradientLayer];
+    }
+    return nil;
+}
+
+- (NSArray <UIView *>*)skeletonViews {
+    if (self.titlePlaceholderView && self.subtitlePlaceholderView) {
+        return @[self.titlePlaceholderView, self.subtitlePlaceholderView];
     }
     return nil;
 }

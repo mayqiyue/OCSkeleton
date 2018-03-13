@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OCSkeleton'
-  s.version          = '0.4.0'
+  s.version          = '0.5.0'
   s.summary          = '[ObjC version] - 💀 An easy way to create sliding CAGradientLayer animations! Works great for creating skeleton screens for loading content.'
 
 # This description is used to generate tags and improve search results.
