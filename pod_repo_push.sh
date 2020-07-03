@@ -27,7 +27,7 @@ if [ $? -eq 0 ]; then
 	git push origin ${FEAMWORK_VERSION}:${FEAMWORK_VERSION}
 	if [ $? -eq 0 ]; then
 		touch .swift-version
-		echo "3.0" > .swift-version
+		echo "5.0" > .swift-version
         pod trunk push ${PROJECT_FILE}.podspec --allow-warnings
 	fi
 else
