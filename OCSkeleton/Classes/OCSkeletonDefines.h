@@ -23,7 +23,7 @@ typedef struct {
     CGPoint end;
 } OCGradientTransition;
 
-static OCGradientTransition transitionMaker(OCDirection dir, OCGradientProperty position) {
+static inline OCGradientTransition transitionMaker(OCDirection dir, OCGradientProperty position) {
     if (dir == OCDirectionLeft) {
         OCGradientTransition transition;
         if (position == OCGradientPropertyStartPoint) {
